@@ -1,4 +1,6 @@
 # CRLF issues
+There is a git-config property: `core.autocrlf`, which affects how line endings are treated when interacting with a git repo.
+
 
 ## Detection
 I used the `file` program under OSX. e.g.:
