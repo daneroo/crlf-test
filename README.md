@@ -1,4 +1,7 @@
-# CRLF issues
+## Solution - for now
+We will use `core.autocrlf=input` on Windows, and default setting on OSX.
+Remains to be seen what we should do with newly created files on windows which will no doubt be created with CRLF
+## CRLF issues
 There is a git-config property: `core.autocrlf`, which affects how line endings are treated when interacting with a git repo.
 
 
